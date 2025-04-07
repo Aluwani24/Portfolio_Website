@@ -110,13 +110,20 @@ background-color:#424949  ;
     flex: 1;
     text-align: left;
     padding: 10px;
+    color: white;
 }
-.embed-map {
-    width: 150px;
+.footer-sections a {
+        flex:1 ;
+        text-align: center;
+        padding: 10px;
+        color:white;
+}
+.embed-map iframe{
+    width: 200px;
     height: 100px;
     background: #ccc;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
 }
 
