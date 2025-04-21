@@ -1,28 +1,40 @@
-body{
-    background-color:#f7f9f9 ;
+body {
+    background-color: #f7f9f9;
 }
-section{
-    margin: 20px ;
+
+section {
+    margin: 20px;
     padding: auto;
-    background-color: white ;
+    background-color: white;
 }
-header{
-    background-color: #424949 ;
+
+header {
+    background-color: #424949;
     color: white;
     text-align: center;
     padding: 15px;
 }
+
+header p {
+    color: #fcf3cf;
+    font-style: italic;
+
+
+}
+
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: underline;
     color: #95a5a6;
 }
-main{
+
+main {
     padding: 20px;
     max-width: 900px;
     margin: auto;
@@ -30,72 +42,109 @@ main{
     border-radius: 8px;
     box-shadow: #95a5a6;
 }
-h2{
-    color: #6c3483 ;
-}
-.overview-container{
-    display: flex;
-    align-items: center ;
-    padding: 20px;
+
+.media img {
+    width: 900px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgba(149, 165, 166, 0.7);
     border-radius: 10px;
-    box-shadow: #95a5a6;
-    gap:50px;
 }
-.overview-container img{
+
+
+h2 {
+    color: #6c3483;
+    margin-bottom: 10px;
+    /* Creates space below heading */
+    padding: 10px;
+}
+
+.overview-container {
+    display: flex;
+    align-items: left;
+    /* Aligns items vertically in center */
+    justify-content: space-between;
+    /* Ensures content is spaced properly */
+    gap: 10px;
+    /* Adds spacing */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(149, 165, 166, 0.7);
+}
+
+.overview-container p {
+    width: 900px;
+    /* Adjusts width for text */
+    padding: 5px;
+}
+
+.overview-container img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
-ul{
+
+
+ul {
     list-style: none;
     padding: 0;
 }
+
 ul li {
     padding: 8px;
     background-color: #eaecee;
-    color:#6c3483;
+    color: #6c3483;
     margin: 5px 0;
     border-radius: 5px;
 
 }
-table{
+
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
-table th, td{
+
+table th,
+td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
 }
-th{
-background-color:#424949  ;
-color: white;
+
+th {
+    background-color: #424949;
+    color: white;
 }
-form{
+
+form {
     background-color: #eaecee;
     padding: 15px;
     border-radius: 8px;
 }
-input, textarea{
+
+input,
+textarea {
     width: 90%;
     padding: 10px;
-    margin:5px 0;
+    margin: 5px 0;
     border-radius: 1px solid #ccc;
     border-radius: 5px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     background-color: #2471a3;
     color: white;
     border: none;
-    padding:10px 20px;
+    padding: 10px 20px;
     font-size: 1.3em;
-    
+
 }
-input[type="submit"]:hover{
-background-color:#424949  ;
+
+input[type="submit"]:hover {
+    background-color: #424949;
 }
+
 /*footer*/
 .footer {
     background: #424949;
@@ -106,30 +155,26 @@ background-color:#424949  ;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .footer-section {
     flex: 1;
     text-align: left;
     padding: 10px;
     color: white;
 }
+
 .footer-sections a {
-        flex:1 ;
-        text-align: center;
-        padding: 10px;
-        color:white;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
-.embed-map iframe{
+
+.embed-map iframe {
     width: 200px;
     height: 100px;
     background: #ccc;
     display: flex;
     align-items: right;
     justify-content: center;
-}
-
-
-#media img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
 }
